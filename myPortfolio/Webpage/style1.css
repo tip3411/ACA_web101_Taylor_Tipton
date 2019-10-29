@@ -11,6 +11,9 @@ article {
 .first {
     color: yellow;
 }
+.flex {
+    display: flex;
+}
 h1 {
     text-align: center;
     color: green;
