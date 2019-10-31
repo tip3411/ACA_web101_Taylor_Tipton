@@ -13,6 +13,11 @@ article {
 }
 .flex {
     display: flex;
+    color: green;
+}
+.flex1 {
+    color: black; 
+    padding: 10%;
 }
 h1 {
     text-align: center;
