@@ -5,6 +5,7 @@ header {
     font-size: 75px;
 }
 article {
+    display: inline;
     background-color: blue;
     color: red
 }
@@ -24,6 +25,7 @@ h1 {
     color: green;
 }
 .has-border {
+    display: inline;
     border-radius: 100px;
     border: 2px green;
     border-color: green;

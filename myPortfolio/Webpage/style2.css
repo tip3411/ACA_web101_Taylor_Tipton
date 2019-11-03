@@ -14,3 +14,18 @@ h1 {
     justify-content: space-around;
     margin: 1% 32%;
 }
+span {
+    border: 1px solid black;
+    color: green;
+    padding: 20px;
+}
+.company {
+    margin: 1%  32%;
+}
+.city {
+    margin: 1% 26%;
+}
+a {
+    border: 1px solid black;
+    box-sizing: border-box;
+}
