@@ -17,7 +17,7 @@ h1 {
 span {
     border: 1px solid black;
     color: green;
-    padding: 20px;
+    padding: 10px;
 }
 .company {
     margin: 1%  32%;
@@ -25,7 +25,6 @@ span {
 .city {
     margin: 1% 26%;
 }
-a {
-    border: 1px solid black;
-    box-sizing: border-box;
+.display {
+    display: block;
 }
