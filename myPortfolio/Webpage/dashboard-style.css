@@ -1,0 +1,36 @@
+body {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 5% 25% 25% 25% 20%;
+}
+input {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    align-content: right;
+    padding: 20px;
+}
+.greeting {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+    font-size: 30px;
+}
+.greeting .hello {
+    color: green;
+    font-size: 30px;
+}
+.todo {
+    grid-column: 3/4;
+    grid-row: 5/6;
+}
+.todo .list {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 1px;
+    text-decoration: underline;
+    text-decoration-color: orangered;
+}
+.day {
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
