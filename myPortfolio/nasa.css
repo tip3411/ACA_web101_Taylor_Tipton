@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image {
+    width: 850px;
+    height: 450px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+#info {
+    display: flex;
+    flex-direction: row;
+}
+.info {
+    width: 270px;
+    height: 324px;
+    border: 1px solid black;
+}
+.info2 {
+    width: 270px;
+    height: 324;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: green;
+    border: 1px solid black;
+}
+/* img {
+    width: 850px;
+    height: 450px;
+} */
