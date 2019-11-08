@@ -1,5 +1,11 @@
 <html><!DOCTYPE html>
 <html lang="en">
+    <style>
+        body {
+          background-image: url('https://external-preview.redd.it/gzpiHtT7yIL7eblobNPXMlph2ECfNcq0BqqlifPydfA.jpg?auto=webp&s=fabdfe8746322ff6aebb3b4ec88d9bf2adbbf509');
+          background-size: cover;
+        }
+        </style>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,12 +17,33 @@
     <input type="date">
     <div class="greeting">
       <h1 class="hello">Hello World!</h1>
-      <time>18:45</time>
+      <script id="clock">
+        function startTime() {
+          var today = new Date();
+          var h = today.getHours();
+          var m = today.getMinutes();
+          var s = today.getSeconds();
+          m = checkTime(m);
+          s = checkTime(s);
+          document.getElementById('txt').innerHTML =
+          h + ":" + m + ":" + s;
+          var t = setTimeout(startTime, 500);
+        }
+        function checkTime(i) {
+          if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+          return i;
+        }
+        </script>
+        </head>
+        
+        <body onload="startTime()">
+        
+        <div id="txt"></div>
     </div>
     <div class="todo">
           <h2 class="list">To Do List</h2>
         <ul>
-            <li>Thing 1</li><li>Thing 2</li><li>Thing 3</li>
+            <li>Thing 1</li><li>Thing 2</li><li>Thing 3</li><li>Thing 4</li>
         </ul>
     </div>
     <div id="calculator" class="calculator">
