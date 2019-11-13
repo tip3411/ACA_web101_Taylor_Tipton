@@ -3,6 +3,7 @@ body {
     grid-template-columns: 25% 50% 25%;
     grid-template-rows: 5% 25% 25% 25% 20%;
 }
+}
 input {
     grid-column: 3/4;
     grid-row: 1/2;
@@ -27,6 +28,16 @@ input {
     grid-column: 1/2;
     grid-row: 1/2;
 }
+@media (min-width: 768px) {
+  #clock {
+   width: 75%;
+   height: 75%;
+ }
+  @media (min-width: 576px) {
+  #clock {
+   width: 50%;
+   height: 50%;
+ }
 .todo .list {
     text-align: left;
     font-size: 50px;
