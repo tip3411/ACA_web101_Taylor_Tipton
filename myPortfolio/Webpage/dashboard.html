@@ -1,12 +1,77 @@
 <html><!DOCTYPE html>
 <html lang="en">
+    <style>
+        body {
+          background-image: url('https://external-preview.redd.it/gzpiHtT7yIL7eblobNPXMlph2ECfNcq0BqqlifPydfA.jpg?auto=webp&s=fabdfe8746322ff6aebb3b4ec88d9bf2adbbf509');
+          background-size: cover;
+        }
+        </style>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="dashboard-style.css">
   <title>My Portfolio</title>
   </head>
-  <h1>Hello</h1>
-  <h2>Hello again</h2>
+  <body>
+    <input type="date">
+    <div class="greeting">
+      <h1 class="hello">Hello World!</h1>
+      <script id="clock">
+        function startTime() {
+          var today = new Date();
+          var h = today.getHours();
+          var m = today.getMinutes();
+          var s = today.getSeconds();
+          m = checkTime(m);
+          s = checkTime(s);
+          document.getElementById('txt').innerHTML =
+          h + ":" + m + ":" + s;
+          var t = setTimeout(startTime, 500);
+        }
+        function checkTime(i) {
+          if (i < 10) {i = "0" + i};
+          return i;
+        }
+        </script>
+        </head>
+        
+        <body onload="startTime()">
+        
+        <div id="txt"></div>
+    </div>
+    <div class="todo">
+          <h2 class="list">To Do List</h2>
+        <ul>
+            <li>Thing 1</li><li>Thing 2</li><li>Thing 3</li><li>Thing 4</li>
+        </ul>
+    </div>
+    <div id="calculator" class="calculator">
+
+      <button id="clear" class="clear">C</button>
+    
+      <div id="viewer" class="viewer">0</div>
+    
+      <button class="num" data-num="7">7</button>
+      <button class="num" data-num="8">8</button>
+      <button class="num" data-num="9">9</button>
+      <button data-ops="plus" class="ops">+</button>
+    
+      <button class="num" data-num="4">4</button>
+      <button class="num" data-num="5">5</button>
+      <button class="num" data-num="6">6</button>
+      <button data-ops="minus" class="ops">-</button>
+    
+      <button class="num" data-num="1">1</button>
+      <button class="num" data-num="2">2</button>
+      <button class="num" data-num="3">3</button>
+      <button data-ops="times" class="ops">*</button>
+    
+      <button class="num" data-num="0">0</button>
+      <button class="num" data-num=".">.</button>
+      <button id="equals" class="equals" data-result="">=</button>
+      <button data-ops="divided by" class="ops">/</button>
+    </div>
+    <input type="checkbox" class="day">
+  </body>
   </html>
