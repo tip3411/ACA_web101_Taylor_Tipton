@@ -28,10 +28,18 @@ input {
     color: green;
     font-size: 70px;
 }
-@media (min-width: 700px) {
-  .greeting .hello #clock {
-    font-size: 20px;
+@media (max-width: 768px) {
+  .greeting .hello {
+    font-size: 30px;
   }
+  @media (max-width: 768px) {
+    .greeting .hello {
+      font-size: 20px;
+    }
+  .greeting .hello #clock {
+    size: 50%;
+  }
+}
 .todo {
     grid-column: 1/2;
     grid-row: 1/2;
@@ -243,7 +251,7 @@ ul {
       opacity: 1;
     }
   }
-  
+/*   
   @media (min-width: 768px) {
     .calculator {
       width: 12em;
@@ -253,4 +261,4 @@ ul {
     }
     button {
       margin: 0.5em;
-    }
+    } */
