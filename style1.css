@@ -1,32 +1,46 @@
 header {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-    font-size: 75px;
+font-family: fantasy;
+font-style: italic;
+font-size: 75px;
 }
+nav {
+    margin-bottom: 70px;
+    margin-top: 30px;
+}   
 article {
-    background-color: blue;
-    color: red
+    background-color: black;
+    color: green;
 }
 .first {
-    color: yellow;
+    color: green;
 }
 h1:nth-of-type(2) {
-    text-align: center;
-    color: blue;
+    border-radius: 100px;
+border: 2px green;
+border-color: green;
+background-color: black;
+color: orange;
+text-align: center;
+margin-top: 50px;
 }
 h1:last-of-type {
-    text-align: right;
-    background-color: green;
+    border-radius: 100px;
+border: 2px green;
+border-color: green;
+background-color: black;
+color: orange;
+text-align: center;
+margin-top: 50px;
 }
 .has-border {
     border-radius: 100px;
-    border: 2px green;
-    border-color: green;
-    background-color: yellow;
-    color: blue;
-    text-align: center;
-    padding: 10px;
+border: 2px green;
+border-color: green;
+background-color: black;
+color: orange;
+text-align: center;
+margin-bottom: 20px;
 }
 article:last-of-type {
     background-color: black;
