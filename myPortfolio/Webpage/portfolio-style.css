@@ -1,3 +1,21 @@
 h1 {
     color: blue;
+    text-align: center;
+}
+#Headers {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: underline;
+}
+.Video {
+    height: 260px;
+    width: 320px;
+}
+.Weather {
+    height: 240px;
+    width: 320px;
+}
+#Page1 {
+    display: flex;
+    justify-content: space-around;
 }
