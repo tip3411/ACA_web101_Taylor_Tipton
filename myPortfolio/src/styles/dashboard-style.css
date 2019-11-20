@@ -251,7 +251,7 @@ ul {
       opacity: 1;
     }
   }
-/*   
+  
   @media (min-width: 768px) {
     .calculator {
       width: 12em;
@@ -261,4 +261,4 @@ ul {
     }
     button {
       margin: 0.5em;
-    } */
+    }
