@@ -9,10 +9,10 @@
 </head>
 <body>
     <h1>Tip's Portfolio Page</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga blanditiis nostrum repudiandae vero optio illo excepturi maxime nisi enim commodi iste cupiditate id a officia eum minus, cumque dicta atque.</p>
+    <p>Below is a list of some of my favorite websites and videos from the internet. I hope you like them! Click on the links for more!</p>
     <div id="Headers"> 
-        <h2>Sites</h2>
-        <h2>Videos</h2>
+        <a href="resume.html">Sites</a>
+        <a href="dashboard.html">Videos</a>
     </div>
     <br>
     <div id="Page1">
@@ -20,6 +20,42 @@
         <video class="Video" controls autoplay loop>
             <source src="./videos/video.mp4">
         </video>
+    </div>
+    <div id="Page2">
+        <iframe class="Weather" src="https://www.basketball-reference.com/"></iframe>
+        <video class="Video" controls autoplay muted>
+            <source src="./videos/basketball.mp4">
+        </video>
+    </div>
+    <h3>Request a Video or Webpage!<span>Please fill out all fields below</span>
+    </h3><hr>
+    <div id="form">
+        <form>
+            <label>
+                <span>Your Email:</span>
+                <input id="email" type="email" name="email" placeholder="Valid Email Address" />
+            </label>
+             <label>
+                <span>Your Name:</span>
+                <input id="name" type="text" name="name" placeholder="Your Name Here">
+            </label>
+             <label>
+                 <span>Location:</span>
+                 <input id="location" type="text" name="name" placeholder="Your Location Here">
+             </label>
+             <label>
+                    <span class="span">Type:</span>
+                    <input id="option" type="radio" name="Video">Video
+                    <input type="radio" name="Website">Website
+                </label>
+             <label>
+                  <span>Message:</span>
+                  <textarea id="request" name="name" placeholder="Your Request Here"></textarea>
+            </label>
+             <label>
+                 <input id="submit" type="submit"><input type="reset">
+             </label>
+        </form>
     </div>
 </body>
 </html>
