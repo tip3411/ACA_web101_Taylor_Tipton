@@ -13,6 +13,15 @@ img {
     margin-right: auto;
     margin-top: 25%;
 }
+@media (max-width: 576px) {  
+ img {
+     width: 25%;
+     height: auto;
+     grid-column: 2/3;
+     grid-row: 2/3;
+     margin-top: 25%;
+ }
+}
 .Color {
     grid-column: 1/2;
     grid-row: 1/2;
