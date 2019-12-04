@@ -79,12 +79,18 @@ body {
     border: 50px white
   }
   }
- 
+ @keyframes name {
+   0% {opacity: 0}
+   50% {opacity: 0.5}
+   100% {opacity: 1}
+ }
   h1 {
     color: orange;
     grid-column: 2/3;
     margin: 3% auto;
     border-bottom: 2px solid white;
+    animation-name: name;
+    animation-duration: 2s;
   }
 @media (max-width: 768px) {  
     h1 {
@@ -99,7 +105,9 @@ body {
     grid-column: 2/3;
     margin: 3% auto;
     font-style: italic;
-    color: white
+    color: white;
+    animation-name: name;
+    animation-duration: 2s;
   }
  
   .small-text {
@@ -124,6 +132,8 @@ body {
     color: white;
     letter-spacing: 16px;
     font-style: italic;
+    animation-name: name;
+    animation-duration: 2s;
   }
 @media (max-width: 768px) {
   button {
