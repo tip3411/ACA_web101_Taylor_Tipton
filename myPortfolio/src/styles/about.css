@@ -1,0 +1,73 @@
+body {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 20% 80%;
+    background-color: gray;
+}
+img {
+    width: 50%;
+    height: auto;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25%;
+}
+@media (max-width: 576px) {  
+ img {
+     width: 25%;
+     height: auto;
+     grid-column: 2/3;
+     grid-row: 2/3;
+     margin-top: 25%;
+ }
+}
+.Color {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: royalblue;
+}
+.Info .General {
+    color: black;
+    font-size: 35px;
+}
+li {
+    padding: 10px;
+}
+article {
+    margin-left: 60px;
+}
+.Info {
+   grid-column: 1/2;
+   grid-row: 2/3;
+   margin-top: 20%;
+}
+.Back {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: right;
+    background-color: royalblue;
+}
+a {
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+}
+form {
+    padding: 30px;
+    display: block;
+}
+p {
+    text-align: center;
+    font-family: cursive;
+    color: white;
+    font-size: 45px;
+}
+input {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+label {
+    padding: 10px;
+    margin-bottom: 10px;
+}
