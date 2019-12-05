@@ -1,0 +1,126 @@
+body {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.orange {
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+}
+.orange:hover {
+    width: 100px;
+    height: 100px;
+    transition: 2s;
+}
+.green {
+    height: 50px;
+    width: 50px;
+    background-color: green;
+}
+.green:hover {
+    width: 25px;
+    height: 25px;
+    transition: 2s;
+}
+.blue {
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+}
+.blue:hover {
+    width: 100px;
+    height: 100px;
+    transition: 2s;
+}
+.black {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+}
+.black:hover {
+    width: 25px;
+    height: 25px;
+    transition: 2s;
+}
+.yellow {
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+}
+.yellow:hover {
+    width: 100px;
+    height: 100px;
+    transition: 2s;
+}
+.red {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}
+.red:hover {
+    width: 25px;
+    height: 25px;
+    transition: 2s;
+}
+.gold {
+    height: 50px;
+    width: 50px;
+    background-color: gold;
+}
+.gold:hover {
+    width: 100px;
+    height: 100px;
+    transition: 2s;
+}
+.silver {
+    height: 50px;
+    width: 50px;
+    background-color: silver;
+}
+.silver:hover {
+    width: 25px;
+    height: 25px;
+    transition: 2s;
+}
+.purple {
+    height: 50px;
+    width: 50px;
+    background-color: purple;
+}
+.purple:hover {
+    width: 100px;
+    height: 100px;
+    transition: 2s;
+}
+.lightgreen {
+    height: 50px;
+    width: 50px;
+    background-color: lightgreen;
+}
+.lightgreen:hover {
+    width: 25px;
+    height: 25px;
+    transition: 2s;
+}
+.coral {
+    height: 50px;
+    width: 50px;
+    background-color: coral;
+}
+.coral:hover {
+    width: 100px;
+    height: 100px;
+    transition: 2s;
+}
+.pink {
+    height: 50px;
+    width: 50px;
+    background-color: pink;
+}
+.pink:hover {
+    width: 25px;
+    height: 25px;
+    transition: 2s;
+}
