@@ -1,0 +1,43 @@
+body {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 20% 80%;
+    background-color: gray;
+}
+img {
+    width: 70%;
+    height: auto;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25%;
+}
+.Info {
+   grid-column: 1/2;
+   grid-row: 2/3;
+   margin-top: 40%;
+}
+.Back {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: right;
+}
+form {
+    padding: 30px;
+    display: block;
+}
+p {
+    text-align: center;
+    font-family: cursive;
+    color: white;
+    font-size: 35px;
+}
+input {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+label {
+    padding: 10px;
+    margin-bottom: 10px;
+}
