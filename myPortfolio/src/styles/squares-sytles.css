@@ -15,128 +15,85 @@ div:nth-child(even) {
 }
 .container:hover div:nth-child(odd) {
     transition: 5s;
-    transform: rotate(360deg);
+    transform: translateX(500px) rotate(360deg);
     width: 100px;
     height: 100px;
+}
+.container:hover div:nth-child(even) {
+    transition: 5s;
+    transform: translateX(-500px) rotate(-360deg);
+    width: 25px;
+    height: 25px;
 }
 .orange {
     height: 50px;
     width: 50px;
     background-color: orange;
-    transition: 4s;
+    transition: 2s;
 }
-/* .orange:hover {
-    width: 100px;
-    height: 100px;
-    transform: translateX(400px) rotate(180deg);
-} */
 .green {
     height: 50px;
     width: 50px;
     background-color: green;
     transition: 2s;
 }
-/* .green:hover {
-    width: 25px;
-    height: 25px;
-} */
 .blue {
     height: 50px;
     width: 50px;
     background-color: blue;
     transition: 2s;
 }
-/* .blue:hover {
-    width: 100px;
-    height: 100px;
-} */
 .black {
     height: 50px;
     width: 50px;
     background-color: black;
     transition: 2s;
 }
-/* .black:hover {
-    width: 25px;
-    height: 25px;
-} */
 .yellow {
     height: 50px;
     width: 50px;
     background-color: yellow;
     transition: 2s;
 }
-/* .yellow:hover {
-    width: 100px;
-    height: 100px;
-} */
 .red {
     height: 50px;
     width: 50px;
     background-color: red;
     transition: 2s;
 }
-/* .red:hover {
-    width: 25px;
-    height: 25px;
-} */
 .gold {
     height: 50px;
     width: 50px;
     background-color: gold;
     transition: 2s;
 }
-/* .gold:hover {
-    width: 100px;
-    height: 100px;
-} */
 .silver {
     height: 50px;
     width: 50px;
     background-color: silver;
     transition: 2s;
 }
-/* .silver:hover {
-    width: 25px;
-    height: 25px;
-} */
 .purple {
     height: 50px;
     width: 50px;
     background-color: purple;
     transition: 2s;
 }
-/* .purple:hover {
-    width: 100px;
-    height: 100px;
-} */
 .lightgreen {
     height: 50px;
     width: 50px;
     background-color: lightgreen;
     transition: 2s;
 }
-/* .lightgreen:hover {
-    width: 25px;
-    height: 25px;
-} */
 .coral {
     height: 50px;
     width: 50px;
     background-color: coral;
     transition: 2s;
 }
-/* .coral:hover {
-    width: 100px;
-    height: 100px;
-} */
 .pink {
     height: 50px;
     width: 50px;
     background-color: pink;
     transition: 2s;
 }
-/* .pink:hover {
-    width: 25px;
-    height: 25px;
-} */
