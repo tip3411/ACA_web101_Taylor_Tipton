@@ -1,0 +1,99 @@
+
+div:nth-child(odd) {
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+div:nth-child(even) {
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto; 
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+}
+.container:hover div:nth-child(odd) {
+    transition: 5s;
+    transform: translateX(500px) rotate(360deg);
+    width: 100px;
+    height: 100px;
+}
+.container:hover div:nth-child(even) {
+    transition: 5s;
+    transform: translateX(-500px) rotate(-360deg);
+    width: 25px;
+    height: 25px;
+}
+.orange {
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+    transition: 2s;
+}
+.green {
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    transition: 2s;
+}
+.blue {
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    transition: 2s;
+}
+.black {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    transition: 2s;
+}
+.yellow {
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    transition: 2s;
+}
+.red {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    transition: 2s;
+}
+.gold {
+    height: 50px;
+    width: 50px;
+    background-color: gold;
+    transition: 2s;
+}
+.silver {
+    height: 50px;
+    width: 50px;
+    background-color: silver;
+    transition: 2s;
+}
+.purple {
+    height: 50px;
+    width: 50px;
+    background-color: purple;
+    transition: 2s;
+}
+.lightgreen {
+    height: 50px;
+    width: 50px;
+    background-color: lightgreen;
+    transition: 2s;
+}
+.coral {
+    height: 50px;
+    width: 50px;
+    background-color: coral;
+    transition: 2s;
+}
+.pink {
+    height: 50px;
+    width: 50px;
+    background-color: pink;
+    transition: 2s;
+}
