@@ -1,0 +1,8 @@
+img {
+    width: 40%;
+    height: auto;
+}
+form {
+    display: flex;
+    align-content: space-between;;
+}
