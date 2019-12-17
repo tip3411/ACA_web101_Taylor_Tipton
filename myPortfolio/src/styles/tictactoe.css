@@ -1,0 +1,16 @@
+button {
+    display: flex;
+    justify-content: space-around;
+}
+.container {
+    margin-top: 10px;
+    width: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .box {
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+  }
